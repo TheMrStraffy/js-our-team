@@ -1,0 +1,19 @@
+body{
+  background-color: bisque;
+}
+
+
+.img-wrapper{
+  display: inline-block;
+  overflow: hidden;
+}
+img{
+  transition: all 1s ease;
+
+}
+img:hover{
+  filter: contrast(1.3);
+  filter: saturate(2);
+  filter: blur(1.5);
+  transform: scale(1.07, 1.07);
+}

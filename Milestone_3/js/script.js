@@ -34,11 +34,15 @@ const team = [
   }
 ]
 
+
 for(let member of team){
   teamMember += `
-  <div class="col-4 mb-4 d-flex justify-content-center">
+  <div class="col-4 mb-4 d-flex justify-content-center ">
     <div class="card" style="width: 16rem;">
+      <div class="img-wrapper">
       <img src="img/${member.picture}" class="card-img-top" alt="${member.picture}">
+
+      </div>
       <div class="card-body">
         <p class="card-text">${member.name}</p>
         <p class="card-text">${member.role}</p>
